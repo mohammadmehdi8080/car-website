@@ -205,15 +205,11 @@ img{
 
 }
 @media screen and (max-width: 768px) {
-  .nav__menu {
-    justify-content: inherit;
-    width: auto;
-  }
   .nav__list{
     position: absolute;
     flex-direction: column;
     background-color: var(--body-color);
-    width: 100%;
+    width: 90%;
     top: -50%;
     left: 0;
     padding: 2rem;
